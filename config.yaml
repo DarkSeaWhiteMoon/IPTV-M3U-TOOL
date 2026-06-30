@@ -1,0 +1,31 @@
+# Public playlists and local M3U files are configured here.
+# Keep this list to sources you are allowed to use.
+sources:
+  urls:
+    - https://iptv-org.github.io/iptv/countries/cn.m3u
+    - https://iptv-org.github.io/iptv/languages/zho.m3u
+  files: []
+
+output:
+  m3u_path: output/mytv.m3u
+  report_md_path: output/report.md
+  report_json_path: output/report.json
+  epg_url: epg.xml
+
+network:
+  timeout_seconds: 10
+  concurrency: 30
+  user_agent: Mozilla/5.0 (AppleTV; IPTV-M3U-TOOL)
+  proxy: null
+  max_bytes_to_read: 1048576
+
+filter:
+  keep_per_channel: 2
+  channel_keywords: []
+  allowed_schemes:
+    - http
+    - https
+
+paths:
+  channel_aliases: channel_aliases.yaml
+  blacklist: blacklist.yaml

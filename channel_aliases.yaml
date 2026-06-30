@@ -1,0 +1,13 @@
+# Manual aliases override automatic normalization.
+# Keys are matched after basic cleanup, case-insensitively.
+aliases:
+  CCTV-1: CCTV1
+  CCTV 1: CCTV1
+  CCTV综合: CCTV1
+  央视一套: CCTV1
+  中央一套: CCTV1
+  CCTV-5: CCTV5
+  CCTV 5: CCTV5
+  央视五套: CCTV5
+  湖南电视台: 湖南卫视
+  广东电视台: 广东卫视

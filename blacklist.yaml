@@ -1,0 +1,5 @@
+# Hide sources or channels without editing upstream playlists.
+url_contains: []
+channel_contains:
+  - 测试
+  - 购物
