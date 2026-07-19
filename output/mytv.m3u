@@ -17,6 +17,8 @@ https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-id="CCTV15.cn@SD" tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="CCTV",CCTV15
 https://xykt-fix.github.io/play/a02e/index.m3u8
+#EXTINF:-1 tvg-id="CCTV3.cn@SD" tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="CCTV",CCTV3
+http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="CCTV",CCTV4
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV4America.cn@SD" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="CCTV",CCTV4 备用1
@@ -89,8 +91,6 @@ https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
 http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV2.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv2.jpg" group-title="其他",QTV-2
 http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
-#EXTINF:-1 tvg-id="QTV3.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv3.jpg" group-title="其他",QTV-3
-http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV4.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv4.jpg" group-title="其他",QTV-4
 http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV5.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv5.jpg" group-title="其他",QTV-5
@@ -101,6 +101,8 @@ http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="SipingTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/sptv1.jpg" group-title="其他",SipingTV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
+#EXTINF:-1 tvg-id="TVBRICSChinese.cn@SD" tvg-logo="https://i.imgur.com/896132Z.png" group-title="港澳台",TVBRICSChinese
+https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBSAsia.tw@SD" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="港澳台",TVBSAsia
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 #EXTINF:-1 tvg-id="TaiwanIndigenousTV.tw@SD" tvg-logo="https://i.imgur.com/QqIdVqz.png" group-title="其他",TaiwanIndigenousTV
