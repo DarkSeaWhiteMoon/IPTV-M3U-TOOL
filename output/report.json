@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-08-07T19:16:22.233870+00:00",
+  "generated_at": "2026-08-08T19:00:06.067984+00:00",
   "collected_count": 371,
   "deduped_count": 222,
-  "playable_count": 62,
-  "failed_count": 160,
-  "selected_count": 62,
+  "playable_count": 65,
+  "failed_count": 157,
+  "selected_count": 65,
   "failure_counts": {
-    "http_403": 29,
     "segment_download_failed": 29,
+    "http_403": 26,
     "http_400": 1,
     "ClientConnectorDNSError": 16,
     "not_m3u8": 4,
-    "http_404": 2,
+    "http_404": 1,
     "ClientConnectorError": 3,
     "http_401": 1,
-    "timeout": 68,
-    "ClientConnectorSSLError": 1,
+    "timeout": 69,
     "http_567": 5,
+    "ClientConnectorSSLError": 1,
     "http_502": 1
   },
   "fastest": {
-    "channel_name": "VOA美国之音 (1080p)",
-    "normalized_name": "VOA美国之音",
-    "group_title": "其他",
-    "url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8",
+    "channel_name": "CCTV-12 (720p)",
+    "normalized_name": "CCTV12",
+    "group_title": "CCTV",
+    "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
     "playable": true,
     "status": 200,
-    "response_time_ms": 752.3517300000151,
-    "download_speed_kbps": 531796.6991070621,
-    "tested_url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist_1080.m3u8",
-    "segment_url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/20260305T135309/playlist_1080/13411/playlist_1080_00019.ts",
+    "response_time_ms": 83.89008199999637,
+    "download_speed_kbps": 93681.44710559535,
+    "tested_url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+    "segment_url": "http://74.91.26.218:82/live/cctv12md/segment_9187.ts",
     "reason": "ok"
   },
   "slowest": {
-    "channel_name": "Siping TV",
-    "normalized_name": "SipingTV",
-    "group_title": "其他",
-    "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
+    "channel_name": "CCTV-4 America (1080p)",
+    "normalized_name": "CCTV4",
+    "group_title": "CCTV",
+    "url": "https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8",
     "playable": true,
     "status": 200,
-    "response_time_ms": 1271.374083000012,
-    "download_speed_kbps": 2099.497121699252,
-    "tested_url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
-    "segment_url": "http://stream2.jlntv.cn/sptv_sd/1786129319/1786130111514.ts?_upt=55417f421786137311",
+    "response_time_ms": 421.2756000000013,
+    "download_speed_kbps": 2003.1147684300122,
+    "tested_url": "https://global.cgtn.cicc.media.caton.cloud/hls/1669979134887520542/1669979134887520542.m3u8?vkey=261C68BCD6A0C8C11748E5F6D67CB1270492DD38E8F10A7B48925C2647CA8671",
+    "segment_url": "https://global.cgtn.cicc.media.caton.cloud/hls/1669979134887520542/1669979134887520542-1786215514-203232.ts?vkey=168d0ad5abfaa36f9c46f661e38ea3b9",
     "reason": "ok"
   },
   "selected": {
@@ -54,10 +54,10 @@
         "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 220.43945300001155,
-        "download_speed_kbps": 8863.133983989203,
+        "response_time_ms": 281.21793900000114,
+        "download_speed_kbps": 13815.157626524684,
         "tested_url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
-        "segment_url": "https://s3.us-east-005.backblazeb2.com/abnvideos/88023d24-9c34-4056-ad5e-47080328d9e9/segment_360p_0013.ts",
+        "segment_url": "https://s3.us-east-005.backblazeb2.com/abnvideos/dc7f3b2e-7b95-48a2-98a5-33470570d8e6/segment_360p_0281.ts",
         "reason": "ok"
       }
     ],
@@ -69,10 +69,10 @@
         "url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 685.9014990000105,
-        "download_speed_kbps": 4749.315059762718,
-        "tested_url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130_output_0.m3u8?session=Hn9h35bC4D9Q74qN5zdBtC",
-        "segment_url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130_output_0_6215.ts?session=Hn9h35bC4D9Q74qN5zdBtC",
+        "response_time_ms": 707.2727230000027,
+        "download_speed_kbps": 4156.168457104796,
+        "tested_url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130_output_0.m3u8?session=3AWH7NvSacgonW2HSnJ83c",
+        "segment_url": "https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130_output_0_1979.ts?session=3AWH7NvSacgonW2HSnJ83c",
         "reason": "ok"
       }
     ],
@@ -84,25 +84,10 @@
         "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 155.54591699998355,
-        "download_speed_kbps": 40201.65594106972,
+        "response_time_ms": 290.7583359999961,
+        "download_speed_kbps": 52799.16382416373,
         "tested_url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest/4.m3u8",
-        "segment_url": "https://videos-cloudfront-usp.jwpsrv.com/6a76bea9_0ab3f8b7ae2aa9f87dc70f7a52c8e81eca9f55d9/sites/BicLsxKk/media/BXySJzSD/versions/yhF6D5Ae/manifest.ism/manifest-video_0_MMqY7Eyz_2PhSVV0P=4431792-26.ts?channel_id=TvhvIHDL",
-        "reason": "ok"
-      }
-    ],
-    "BeautifulLifeTV": [
-      {
-        "channel_name": "Beautiful Life TV",
-        "normalized_name": "BeautifulLifeTV",
-        "group_title": "其他",
-        "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8",
-        "playable": true,
-        "status": 200,
-        "response_time_ms": 590.844594999993,
-        "download_speed_kbps": 3157.411066510882,
-        "tested_url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w176564631.m3u8",
-        "segment_url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/media_w176564631_174.ts",
+        "segment_url": "https://videos-cloudfront-usp.jwpsrv.com/6a781853_c53e4de14398c3aaa52916adf55682c4222d1903/sites/BicLsxKk/media/S8gGKQIm/versions/S8gGKQIm/manifest.ism/manifest-video_0_01lOCOAn_6XyZBlLF=2105608-5.ts?channel_id=TvhvIHDL",
         "reason": "ok"
       }
     ],
@@ -114,10 +99,10 @@
         "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 676.4248700000053,
-        "download_speed_kbps": 6141.437189844518,
+        "response_time_ms": 772.0916079999967,
+        "download_speed_kbps": 5434.755274043236,
         "tested_url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
-        "segment_url": "https://video.bread-tv.com:8091/hls-live24/online/4590.ts",
+        "segment_url": "https://video.bread-tv.com:8091/hls-live24/online/14082.ts",
         "reason": "ok"
       }
     ],
@@ -129,10 +114,10 @@
         "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 862.2731810000062,
-        "download_speed_kbps": 8338.803713539837,
-        "tested_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w1798301291_b1000000.m3u8",
-        "segment_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/media_w1798301291_b1000000_488079.ts",
+        "response_time_ms": 751.1869709999957,
+        "download_speed_kbps": 7646.672909303846,
+        "tested_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/chunklist_w773319407_b1000000.m3u8",
+        "segment_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/media_w773319407_b1000000_496621.ts",
         "reason": "ok"
       }
     ],
@@ -144,10 +129,10 @@
         "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 384.67546600000446,
-        "download_speed_kbps": 7491.452710318598,
-        "tested_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w1758479857_b1000000.m3u8",
-        "segment_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/media_w1758479857_b1000000_687281.ts",
+        "response_time_ms": 470.95048299999576,
+        "download_speed_kbps": 7155.684490070781,
+        "tested_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/chunklist_w994182049_b1000000.m3u8",
+        "segment_url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/media_w994182049_b1000000_695823.ts",
         "reason": "ok"
       }
     ],
@@ -159,10 +144,10 @@
         "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 101.73382900001116,
-        "download_speed_kbps": 20786.84158782476,
+        "response_time_ms": 52.50009899999952,
+        "download_speed_kbps": 43759.35492659151,
         "tested_url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
-        "segment_url": "http://74.91.26.218:82/live/cctv1md/segment_34435.ts",
+        "segment_url": "http://74.91.26.218:82/live/cctv1md/segment_42977.ts",
         "reason": "ok"
       }
     ],
@@ -174,10 +159,10 @@
         "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 150.8371909999937,
-        "download_speed_kbps": 19866.466760728286,
+        "response_time_ms": 83.89008199999637,
+        "download_speed_kbps": 93681.44710559535,
         "tested_url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
-        "segment_url": "http://74.91.26.218:82/live/cctv12md/segment_644.ts",
+        "segment_url": "http://74.91.26.218:82/live/cctv12md/segment_9187.ts",
         "reason": "ok"
       }
     ],
@@ -189,10 +174,25 @@
         "url": "https://xykt-fix.github.io/play/a02e/index.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 243.79389599999968,
-        "download_speed_kbps": 28694.46621182523,
+        "response_time_ms": 15.082937000002516,
+        "download_speed_kbps": 7963.627550462116,
         "tested_url": "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001338/8000_hls.m3u8?IASHttpSessionId=RR&m3u8_level=2&ispcode=12&ztecid=ch00000090990000001338&streamkey=0PV1gjFJAoweF4u1y7xE6B6z5VHwoQFK2UuvK2ttk0ZnQNmz5vJlzaNmGnmRyclcYRrdpryR6h8VdYeaJBbP1ZPk7xzd4Yb4iQXIzsknbACzRVkUC&token=1779374095-d13a9acef437d27c-0-307d2bbbdf50f841cf73d9c937c07126",
-        "segment_url": "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001338/8000-10-29835076.ts?zduration=8.96&prog_time=20260807191254&ts_min=1&ispcode=12&IASHttpSessionId=RR&ztecid=ch00000090990000001338&streamkey=0PV1gjFJAoweF4u1y7xE6B6z5VHwoQFK2UuvK2ttk0ZnQNmz5vJlzaNmGnmRyclcYRrdpryR6h8VdYeaJBbP1ZPk7xzd4Yb4iQXIzsknbACzRVkUC&token=1786130161-42705c943f245def-0-df2f7cfb03a72026405d0d29dda922d7",
+        "segment_url": "https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001338/8000-10-29843618.ts?zduration=10.24&prog_time=20260808185634&ts_min=1&ispcode=12&IASHttpSessionId=RR&ztecid=ch00000090990000001338&streamkey=0PV1gjFJAoweF4u1y7xE6B6z5VHwoQFK2UuvK2ttk0ZnQNmz5vJlzaNmGnmRyclcYRrdpryR6h8VdYeaJBbP1ZPk7xzd4Yb4iQXIzsknbACzRVkUC&token=1786215585-72ccc059953d5219-0-119f5319da721ec8e11657987b7fba60",
+        "reason": "ok"
+      }
+    ],
+    "CCTV3": [
+      {
+        "channel_name": "CCTV-3 (720p)",
+        "normalized_name": "CCTV3",
+        "group_title": "CCTV",
+        "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
+        "playable": true,
+        "status": 200,
+        "response_time_ms": 115.27415399999796,
+        "download_speed_kbps": 24823.94561364241,
+        "tested_url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
+        "segment_url": "http://74.91.26.218:82/live/cctv3md/segment_486.ts",
         "reason": "ok"
       }
     ],
@@ -204,10 +204,10 @@
         "url": "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 652.0186639999963,
-        "download_speed_kbps": 6874.353448994488,
+        "response_time_ms": 549.7664009999994,
+        "download_speed_kbps": 8144.473733659231,
         "tested_url": "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8",
-        "segment_url": "https://dash2.antik.sk/live/test_cctv_tizen/1786130096.ts",
+        "segment_url": "https://dash2.antik.sk/live/test_cctv_tizen/1786215521.ts",
         "reason": "ok"
       },
       {
@@ -217,10 +217,10 @@
         "url": "https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 547.6302739999994,
-        "download_speed_kbps": 2712.205972649503,
+        "response_time_ms": 421.2756000000013,
+        "download_speed_kbps": 2003.1147684300122,
         "tested_url": "https://global.cgtn.cicc.media.caton.cloud/hls/1669979134887520542/1669979134887520542.m3u8?vkey=261C68BCD6A0C8C11748E5F6D67CB1270492DD38E8F10A7B48925C2647CA8671",
-        "segment_url": "https://global.cgtn.cicc.media.caton.cloud/hls/1669979134887520542/1669979134887520542-1786130094-185642.ts?vkey=f896fd79648f22e8c09752621337b532",
+        "segment_url": "https://global.cgtn.cicc.media.caton.cloud/hls/1669979134887520542/1669979134887520542-1786215514-203232.ts?vkey=168d0ad5abfaa36f9c46f661e38ea3b9",
         "reason": "ok"
       }
     ],
@@ -232,10 +232,10 @@
         "url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 693.2828519999816,
-        "download_speed_kbps": 3224.462746939681,
+        "response_time_ms": 906.804489999999,
+        "download_speed_kbps": 4290.575728148811,
         "tested_url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8",
-        "segment_url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul000000329.ts",
+        "segment_url": "https://myip.pdtvhd.com/Sports/streams/CCTV5pul000001170.ts",
         "reason": "ok"
       }
     ],
@@ -247,10 +247,10 @@
         "url": "https://xykt-fix.github.io/Y77.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 301.7884239999944,
-        "download_speed_kbps": 2526.1716211290636,
+        "response_time_ms": 75.65341700001227,
+        "download_speed_kbps": 3093.776343809344,
         "tested_url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=bcf14a4a3e6e598f7af33d06606ce046",
-        "segment_url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920_29529.ts?vhost=play.kankanlive.com&edge_slice=true",
+        "segment_url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920_58595.ts?vhost=play.kankanlive.com&edge_slice=true",
         "reason": "ok"
       }
     ],
@@ -262,10 +262,10 @@
         "url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 214.96168699999885,
-        "download_speed_kbps": 7345.002581552402,
+        "response_time_ms": 696.865864000003,
+        "download_speed_kbps": 6437.8218574131715,
         "tested_url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN_1.m3u8",
-        "segment_url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN_1_9286062.ts?m=1730354323",
+        "segment_url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN_1_9300284.ts?m=1730354323",
         "reason": "ok"
       }
     ],
@@ -277,10 +277,10 @@
         "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 513.1848290000107,
-        "download_speed_kbps": 7838.23131139279,
+        "response_time_ms": 242.7735790000014,
+        "download_speed_kbps": 12000.589893865283,
         "tested_url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p.m3u8",
-        "segment_url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p_12733640.ts",
+        "segment_url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p_12747877.ts",
         "reason": "ok"
       }
     ],
@@ -292,10 +292,10 @@
         "url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 98.07529699997986,
-        "download_speed_kbps": 22778.188668108403,
-        "tested_url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a09c08b78ad5333611e76939caf7ad8cf1314e3d15e2e37b77c1e00fa0741d42d0626dcdb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac924364a29c2b0e90e335452c8ea9f11ae0243e267167fc5bb1/197/1920x1080_4681597/index.m3u8",
-        "segment_url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtnglobalbiz-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a09c08b78ad5333611e76939caf7ad8cf1314e3d15e2e37b77c1e00fa0741d42d0626dcdb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac924364a29c2b0e90e335452c8ea9f11ae0243e267167fc5bb1/1920x1080_4681597?bcn=1&ca=0&cid=Summer_Davos_2026_The_Future_of_Jobs_Skills_and_Sustainable_Growth&dur=6.006000&media_type=C&redirect_url=https%3A%2F%2Famg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv%2Findex_6_6057009.ts%3Fm%3D1753844038&seen-ad=1&seg_id=6057009&user_id=687e2527-9294-11f1-a9a4-460a49d48e4e",
+        "response_time_ms": 180.41559099999915,
+        "download_speed_kbps": 26048.845024572965,
+        "tested_url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtnglobalbiz-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc6805938a7cfb023d2e0a7d999de066d8984408afd1087c2bae294f03f90b1cd02c06268db92830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c7225983f3843d1a12d4ead0651bb97a4fea782ca51f1655053bdb1/12/1920x1080_4681597/index.m3u8",
+        "segment_url": "https://amg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtnglobalbiz-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc6805938a7cfb023d2e0a7d999de066d8984408afd1087c2bae294f03f90b1cd02c06268db92830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c7225983f3843d1a12d4ead0651bb97a4fea782ca51f1655053bdb1/1920x1080_4681597?bcn=1&ca=0&cid=2026_WORLD_ARTIFICIAL_INTELLIGENCE_CONFERENCE_SPECIAL_China_s_Vision_for_AI_Development_and_Global_Governance&dur=6.006000&media_type=C&redirect_url=https%3A%2F%2Famg01314-amg01314c6-distrotv-us-10220.playouts.now.amagi.tv%2Findex_6_6071256.ts%3Fm%3D1753844038&seen-ad=1&seg_id=6071256&user_id=4dd6cc9b-935b-11f1-97f1-cab75909e440",
         "reason": "ok"
       }
     ],
@@ -307,10 +307,10 @@
         "url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1112.419898000013,
-        "download_speed_kbps": 5003.093872656492,
+        "response_time_ms": 887.4475220000022,
+        "download_speed_kbps": 5155.9907732759675,
         "tested_url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8",
-        "segment_url": "http://play1-qk.nmtv.cn/live/1735546697341033-1785690346.ts?txspiseq=104832348197785418710",
+        "segment_url": "http://play1-qk.nmtv.cn/live/1735546697341033-1785713261.ts?txspiseq=104832348197785418710",
         "reason": "ok"
       }
     ],
@@ -322,10 +322,10 @@
         "url": "https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 132.40084800000318,
-        "download_speed_kbps": 28174.23273481976,
-        "tested_url": "https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a0891d87da00765611e76939caf7ad8cf1314bbdf0f2d37b67c1c52f70b40d97306258cdb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac994564a29e2b0e90e31465c8be3fa0fb7cc1d39b3502ce02ba/121/1920x1080_4681598/index.m3u8",
-        "segment_url": "https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtnchinatravel-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a0891d87da00765611e76939caf7ad8cf1314bbdf0f2d37b67c1c52f70b40d97306258cdb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac994564a29e2b0e90e31465c8be3fa0fb7cc1d39b3502ce02ba/1920x1080_4681598?bcn=1&ca=0&cid=Foodwise_Xi_an&dur=6.006000&media_type=C&redirect_url=https%3A%2F%2Famg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv%2Findex_1_6388523.ts%3Fm%3D1753843336&seen-ad=1&seg_id=6388523&user_id=69f678fa-9294-11f1-9707-562395e9fe75",
+        "response_time_ms": 184.49906000000738,
+        "download_speed_kbps": 16430.282318878413,
+        "tested_url": "https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc680591d729ac03317a0a7d999de066d8984408afd10b7f7cae281800a80610d67350278cbe2830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c7224983b8bc24ac509407872f2922b1329891ed52afd4cb9927d6945/163/1920x1080_4681598/index.m3u8",
+        "segment_url": "https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtnchinatravel-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc680591d729ac03317a0a7d999de066d8984408afd10b7f7cae281800a80610d67350278cbe2830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c7224983b8bc24ac509407872f2922b1329891ed52afd4cb9927d6945/1920x1080_4681598?bcn=1&ca=0&cid=Foodwise_Datong&dur=6.006000&media_type=C&redirect_url=https%3A%2F%2Famg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv%2Findex_1_6402791.ts%3Fm%3D1753843336&seen-ad=1&seg_id=6402791&user_id=4f9c4b56-935b-11f1-94ef-b6af856f3557",
         "reason": "ok"
       }
     ],
@@ -337,10 +337,10 @@
         "url": "https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 96.56484999999293,
-        "download_speed_kbps": 86303.7540183826,
+        "response_time_ms": 345.2513929999981,
+        "download_speed_kbps": 12757.251799232376,
         "tested_url": "https://reflect-creatv.cablecast.tv/live-13/live/WIFI-1896k-720p/WIFI-1896k-720p.m3u8",
-        "segment_url": "https://reflect-creatv.cablecast.tv/live-13/live/WIFI-1896k-720p/WIFI-1896k-720p-00035293.ts",
+        "segment_url": "https://reflect-creatv.cablecast.tv/live-13/live/WIFI-1896k-720p/WIFI-1896k-720p-00043835.ts",
         "reason": "ok"
       }
     ],
@@ -352,10 +352,10 @@
         "url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 882.6285330000019,
-        "download_speed_kbps": 86669.91240806077,
+        "response_time_ms": 1284.5107939999991,
+        "download_speed_kbps": 16530.277628175078,
         "tested_url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8",
-        "segment_url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD-ss-2952173490-1786124826-20260807T191549.ts?volcDst=MTAuMTMuOC4xNDM",
+        "segment_url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD-ss-2954173941-1786211046-20260808T185933.ts?volcDst=MTAuMTMuOC4xNDM",
         "reason": "ok"
       }
     ],
@@ -367,10 +367,10 @@
         "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 721.698473999993,
-        "download_speed_kbps": 5815.802415004052,
-        "tested_url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w239014503.m3u8",
-        "segment_url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/media_w239014503_376605.ts",
+        "response_time_ms": 621.0665159999991,
+        "download_speed_kbps": 6561.30756815709,
+        "tested_url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/chunklist_w1122489580.m3u8",
+        "segment_url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/media_w1122489580_3838.ts",
         "reason": "ok"
       }
     ],
@@ -382,10 +382,10 @@
         "url": "https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 104.96722700000305,
-        "download_speed_kbps": 21662.7483712903,
-        "tested_url": "https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a55c1df72ad5635611e76939caf7ad8cf1314bada062937b6781904f90f1dd92355718ddb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac9e4264a2842b0e90e3c0333abe249776984eedb855c120b755/156/1920x1080_4681598/index.m3u8",
-        "segment_url": "https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb513e1e6573638784cd3d78d6d354dd844c3bdd0b61cb3071aa448f04815f05d0d897c8fd328f0c3a8262dd0417092e221bd20bca7a55c1df72ad5635611e76939caf7ad8cf1314bada062937b6781904f90f1dd92355718ddb1a62fd5534d29871926b5b6570e08807f43207919069cf2e6ddeeeff49034f242ebfc0892892749e81be1f01807cd0ec490acc7c14cdb258f9d60a8358e37a4dd62d82e1c4efe2d943b0c3172dd50b594d8d15045d30749a8136b0c154b5db9d6603b21b6c6b114fefaf9fff0169c8170314d9efdbb360cb2595c90cb15401f62dcb7ac904a5448640d58424c3a494ec383e53c1e54b712ba597c5abeb253fb81c9996df9f184f9ce2544c48d92dfa2d3332f3ac9e4264a2842b0e90e3c0333abe249776984eedb855c120b755/1920x1080_4681598?bcn=1&ca=0&cid=Lancang_Mekong_The_River_That_Flows_South_Ep_2&dur=6.006000&media_type=M&redirect_url=https%3A%2F%2Famg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv%2Findex_5_6058206.ts%3Fm%3D1753843976&seen-ad=1&seg_id=6058206&user_id=6d618571-9294-11f1-8293-527e718966c4",
+        "response_time_ms": 195.83254599999123,
+        "download_speed_kbps": 29009.71081695328,
+        "tested_url": "https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc6804c68d78a859367d0a7d999de066d8984408afd15e7f7eae721c07ab5b40d02d537480eb2830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c722598343843eba12d4eaddeeb661b577c17e5311c87497a4484ca/19/1920x1080_4681598/index.m3u8",
+        "segment_url": "https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/beacon/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb563d19796c678e98d4386ecef062b4a65928d80b6c852a6ab454876db05f19d9e995a5e65b960838f902a3626f70352218b700cc6804c68d78a859367d0a7d999de066d8984408afd15e7f7eae721c07ab5b40d02d537480eb2830ef44dd868ed389730c7110cfd33cf32f1690d41af02677dcf9823c1b5c606dea387d79749391d5d728009a33e1e436788f1f47f3ba9afef52d55b2ede1113af65f8aecaa9f5bee5c9f98bbe426eb08f23146742d739d8f77a9e737f2f7957330907d29094b1bb6e3dbdf5e2c8a42776aa3bfe28f51c95ee3da10cc5418942cd13de15ae962853add9e24c58cabcf4e444bc1e54b712ba59fc2becd77588e63efe2ddd2633cbbf90c722598343843eba12d4eaddeeb661b577c17e5311c87497a4484ca/1920x1080_4681598?bcn=1&ca=0&cid=Lancang_Mekong_The_River_That_Flows_South_Ep_5&dur=6.006000&media_type=C&redirect_url=https%3A%2F%2Famg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv%2Findex_5_6072458.ts%3Fm%3D1753843976&seen-ad=1&seg_id=6072458&user_id=51c20821-935b-11f1-9aed-82feee080f9b",
         "reason": "ok"
       }
     ],
@@ -397,10 +397,10 @@
         "url": "https://live.streamingfast.net/osmflivech1.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 567.0853680000221,
-        "download_speed_kbps": 6783.1597558588555,
+        "response_time_ms": 810.8848680000023,
+        "download_speed_kbps": 5784.561795333466,
         "tested_url": "https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-3.m3u8",
-        "segment_url": "https://live.streamingfast.net/hls-live/streams/goodtv/events/_definst_/liveevent/live-ch1-3Num10461.ts",
+        "segment_url": "https://live.streamingfast.net/hls-live/streams/goodtv/events/_definst_/liveevent/live-ch1-3Num10339.ts",
         "reason": "ok"
       }
     ],
@@ -412,10 +412,25 @@
         "url": "https://live.streamingfast.net/osmflivech2.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 586.3621670000043,
-        "download_speed_kbps": 6780.417063271736,
+        "response_time_ms": 818.9172330000006,
+        "download_speed_kbps": 5792.983462007075,
         "tested_url": "https://live.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch2-3.m3u8",
-        "segment_url": "https://live.streamingfast.net/hls-live/streams/goodtv/events/_definst_/liveevent/live-ch2-3Num73466.ts",
+        "segment_url": "https://live.streamingfast.net/hls-live/streams/goodtv/events/_definst_/liveevent/live-ch2-3Num84144.ts",
+        "reason": "ok"
+      }
+    ],
+    "GodStandsTVChinese": [
+      {
+        "channel_name": "God Stands TV Chinese",
+        "normalized_name": "GodStandsTVChinese",
+        "group_title": "其他",
+        "url": "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8",
+        "playable": true,
+        "status": 200,
+        "response_time_ms": 451.0868800000054,
+        "download_speed_kbps": 7276.805897632127,
+        "tested_url": "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8",
+        "segment_url": "https://online.godstands.tv:5443/WebRTCApp/streams/chineselive000006920.ts",
         "reason": "ok"
       }
     ],
@@ -427,10 +442,10 @@
         "url": "https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 70.95559799998341,
-        "download_speed_kbps": 54138.82291950519,
+        "response_time_ms": 273.7945109999984,
+        "download_speed_kbps": 26024.45929378409,
         "tested_url": "https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8",
-        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/gdtv-530042.ts",
+        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/gdtv-551398.ts",
         "reason": "ok"
       }
     ],
@@ -442,10 +457,10 @@
         "url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1442.1724699999743,
-        "download_speed_kbps": 4764.741664162839,
+        "response_time_ms": 1416.624384000002,
+        "download_speed_kbps": 4346.409140410348,
         "tested_url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8",
-        "segment_url": "https://tencentplaybusiness.gztv.com/live/zonghes-1783315869.ts?txspiseq=101757405558006942202",
+        "segment_url": "https://tencentplaybusiness.gztv.com/live/zonghes-1783337225.ts?txspiseq=101757405558006942202",
         "reason": "ok"
       }
     ],
@@ -457,10 +472,10 @@
         "url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 68.57418300000973,
-        "download_speed_kbps": 31796.901590848207,
+        "response_time_ms": 277.9766559999999,
+        "download_speed_kbps": 18480.476884252592,
         "tested_url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8",
-        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv-465260.ts",
+        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv-486616.ts",
         "reason": "ok"
       }
     ],
@@ -472,10 +487,10 @@
         "url": "https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1022.4933709999959,
-        "download_speed_kbps": 2410.896457079492,
+        "response_time_ms": 1148.5280579999967,
+        "download_speed_kbps": 2803.833869587865,
         "tested_url": "https://stream.hrbtv.net/xwzh/sd/live.m3u8",
-        "segment_url": "https://stream.hrbtv.net/xwzh_sd/1786129288/1786130118138.ts",
+        "segment_url": "https://stream.hrbtv.net/xwzh_sd/1786212165/1786215544845.ts",
         "reason": "ok"
       }
     ],
@@ -487,10 +502,10 @@
         "url": "https://stream.hrbtv.net/yspd/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 954.827110999986,
-        "download_speed_kbps": 2873.1816374416558,
+        "response_time_ms": 1033.958771000002,
+        "download_speed_kbps": 2221.9011980833234,
         "tested_url": "https://stream.hrbtv.net/yspd/sd/live.m3u8",
-        "segment_url": "https://stream.hrbtv.net/yspd_sd/1786129295/1786130125859.ts",
+        "segment_url": "https://stream.hrbtv.net/yspd_sd/1786212169/1786215553019.ts",
         "reason": "ok"
       }
     ],
@@ -502,10 +517,10 @@
         "url": "https://event.pull.hebtv.com/live/live101.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1275.2251950000186,
-        "download_speed_kbps": 5938.240585741251,
+        "response_time_ms": 1363.9015759999893,
+        "download_speed_kbps": 5417.493512373847,
         "tested_url": "https://event.pull.hebtv.com/live/live101.m3u8",
-        "segment_url": "https://event.pull.hebtv.com/live/live101-595365598.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
+        "segment_url": "https://event.pull.hebtv.com/live/live101-595388235.ts?ctyun_app=live&ctyun_stream=live101&ctyun_rate=0.000",
         "reason": "ok"
       }
     ],
@@ -517,10 +532,10 @@
         "url": "https://homeplushls.wns.live/hls/stream.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 440.8507649999933,
-        "download_speed_kbps": 7162.269632948751,
+        "response_time_ms": 395.3837779999958,
+        "download_speed_kbps": 8353.158244632925,
         "tested_url": "https://homeplushls.wns.live/hls/stream.m3u8",
-        "segment_url": "https://homeplushls.wns.live/hls/stream-960023.ts",
+        "segment_url": "https://homeplushls.wns.live/hls/stream-977106.ts",
         "reason": "ok"
       }
     ],
@@ -532,10 +547,10 @@
         "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1505.5580299999747,
-        "download_speed_kbps": 22448.632683764616,
+        "response_time_ms": 1066.8514190000024,
+        "download_speed_kbps": 35034.59619702474,
         "tested_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
-        "segment_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-5210503-1-hls.ts",
+        "segment_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST-5224739-1-hls.ts",
         "reason": "ok"
       }
     ],
@@ -547,10 +562,10 @@
         "url": "https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 2963.79881499999,
-        "download_speed_kbps": 4141.223466900097,
+        "response_time_ms": 1337.8404000000046,
+        "download_speed_kbps": 4180.03727740622,
         "tested_url": "https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8",
-        "segment_url": "https://liveplus.lzr.com.cn/xwzh_HD/1786128842/1786130145696.ts",
+        "segment_url": "https://liveplus.lzr.com.cn/xwzh_HD/1786213529/1786215564576.ts",
         "reason": "ok"
       }
     ],
@@ -562,10 +577,10 @@
         "url": "https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1169.0973660000168,
-        "download_speed_kbps": 5953.017250911406,
+        "response_time_ms": 204.6974430000006,
+        "download_speed_kbps": 13814.791010377681,
         "tested_url": "https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8",
-        "segment_url": "https://liveplus.lzr.com.cn/wlpd_HD/1786127126/1786130142769.ts",
+        "segment_url": "https://liveplus.lzr.com.cn/wlpd_HD/1786213532/1786215566114.ts",
         "reason": "ok"
       }
     ],
@@ -577,10 +592,10 @@
         "url": "https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 306.2402470000052,
-        "download_speed_kbps": 12293.164592078983,
+        "response_time_ms": 207.43377699999144,
+        "download_speed_kbps": 21973.342358130332,
         "tested_url": "https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream_1250_20260711T171056.m3u8",
-        "segment_url": "https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream_1250_20260807T191402_1321573.ts",
+        "segment_url": "https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream_1250_20260808T185741_1329977.ts",
         "reason": "ok"
       }
     ],
@@ -592,10 +607,10 @@
         "url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 182.7569550000021,
-        "download_speed_kbps": 54083.571374835854,
+        "response_time_ms": 260.4958470000014,
+        "download_speed_kbps": 82357.87925821843,
         "tested_url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/1080p-cc/index.m3u8",
-        "segment_url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/1080p-cc/seg_0885252.ts",
+        "segment_url": "https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/1080p-cc/seg_0899722.ts",
         "reason": "ok"
       }
     ],
@@ -607,10 +622,10 @@
         "url": "https://ntd02.akamaized.net/HD-NY/index.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 208.24730300000738,
-        "download_speed_kbps": 36608.16600003491,
+        "response_time_ms": 197.64135900000213,
+        "download_speed_kbps": 53040.19047177192,
         "tested_url": "https://ntd02.akamaized.net/HD-NY/tracks-v4a1/mono.m3u8",
-        "segment_url": "https://ntd02.akamaized.net/HD-NY/tracks-v4a1/2026/08/07/19/13/38-01401.ts",
+        "segment_url": "https://ntd02.akamaized.net/HD-NY/tracks-v4a1/2026/08/08/18/56/41-07007.ts",
         "reason": "ok"
       }
     ],
@@ -622,10 +637,10 @@
         "url": "https://live.ntdtv.com/aplive200/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 334.0297529999816,
-        "download_speed_kbps": 29116.42197943841,
+        "response_time_ms": 368.7123349999979,
+        "download_speed_kbps": 10315.797900490807,
         "tested_url": "https://live.ntdtv.com/aplive200/playlist.m3u8",
-        "segment_url": "https://live.ntdtv.com/aplive200/media_10368.ts",
+        "segment_url": "https://live.ntdtv.com/aplive200/media_2977.ts",
         "reason": "ok"
       }
     ],
@@ -637,10 +652,10 @@
         "url": "https://live.ntdtv.com/mllive860/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 27.34470299998293,
-        "download_speed_kbps": 64285.163900954234,
+        "response_time_ms": 146.33706899999765,
+        "download_speed_kbps": 78289.5711969458,
         "tested_url": "https://live.ntdtv.com/mllive860/playlist.m3u8",
-        "segment_url": "https://live.ntdtv.com/mllive860/media_27940.ts",
+        "segment_url": "https://live.ntdtv.com/mllive860/media_36484.ts",
         "reason": "ok"
       }
     ],
@@ -652,10 +667,10 @@
         "url": "https://live.ntdtv.com/cwlive220/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 154.48564999999803,
-        "download_speed_kbps": 41316.06058587914,
+        "response_time_ms": 67.9142019999972,
+        "download_speed_kbps": 74686.73889939983,
         "tested_url": "https://live.ntdtv.com/cwlive220/playlist.m3u8",
-        "segment_url": "https://live.ntdtv.com/cwlive220/media_27961.ts",
+        "segment_url": "https://live.ntdtv.com/cwlive220/media_36503.ts",
         "reason": "ok"
       }
     ],
@@ -667,10 +682,10 @@
         "url": "https://live.ntdtv.com/cnlive900/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 29.386519000013323,
-        "download_speed_kbps": 70072.30132714847,
+        "response_time_ms": 75.31793500000106,
+        "download_speed_kbps": 16488.79491007652,
         "tested_url": "https://live.ntdtv.com/cnlive900/playlist.m3u8",
-        "segment_url": "https://live.ntdtv.com/cnlive900/media_11350.ts",
+        "segment_url": "https://live.ntdtv.com/cnlive900/media_19893.ts",
         "reason": "ok"
       }
     ],
@@ -682,10 +697,10 @@
         "url": "https://live.ntdtv.com/uwlive990/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 72.69214999999463,
-        "download_speed_kbps": 73114.91224894357,
+        "response_time_ms": 70.20832999999982,
+        "download_speed_kbps": 41359.398267399876,
         "tested_url": "https://live.ntdtv.com/uwlive990/playlist.m3u8",
-        "segment_url": "https://live.ntdtv.com/uwlive990/media_11353.ts",
+        "segment_url": "https://live.ntdtv.com/uwlive990/media_19895.ts",
         "reason": "ok"
       }
     ],
@@ -697,10 +712,10 @@
         "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 582.3564590000103,
-        "download_speed_kbps": 5731.751801636354,
+        "response_time_ms": 735.7054919999939,
+        "download_speed_kbps": 5724.954045039848,
         "tested_url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
-        "segment_url": "http://play1-qk.nmtv.cn/live/1769652018126032-1785680219.ts?txspiseq=108074658454514522640",
+        "segment_url": "http://play1-qk.nmtv.cn/live/1769652018126032-1785701772.ts?txspiseq=108074658454514522640",
         "reason": "ok"
       }
     ],
@@ -712,10 +727,25 @@
         "url": "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1322.79255200001,
-        "download_speed_kbps": 5924.872761925174,
+        "response_time_ms": 1282.915924000001,
+        "download_speed_kbps": 3923.9872627314676,
         "tested_url": "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8",
-        "segment_url": "http://play1-qk.nmtv.cn/live/1769652109096027-1785680052.ts?txspiseq=103039306416649286476",
+        "segment_url": "http://play1-qk.nmtv.cn/live/1769652109096027-1785701367.ts?txspiseq=103039306416649286476",
+        "reason": "ok"
+      }
+    ],
+    "PeaceTVChinese": [
+      {
+        "channel_name": "Peace TV Chinese (1080p)",
+        "normalized_name": "PeaceTVChinese",
+        "group_title": "其他",
+        "url": "https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8",
+        "playable": true,
+        "status": 200,
+        "response_time_ms": 924.6354660000122,
+        "download_speed_kbps": 6370.926576528272,
+        "tested_url": "https://dzkyvlfyge.erbvr.com/PeaceTvChinese/tracks-v1a1/mono.m3u8?sid=gk4iI2kZq0-Ovkir5iyFMQ&bvr_flags=1&bvr_ch=PeaceTvChinese&bvr_bw=5510000",
+        "segment_url": "https://dzkyvlfyge.fdc.ercdn.net/boauvytocq/PeaceTvChinese/tracks-v1a1/2026/08/08/18/59/19-06000.ts?sid=gk4iI2kZq0-Ovkir5iyFMQ&bvr_flags=1&bvr_ch=PeaceTvChinese&bvr_bw=5510000",
         "reason": "ok"
       }
     ],
@@ -727,10 +757,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1283.3941739999943,
-        "download_speed_kbps": 3139.986274942169,
+        "response_time_ms": 1666.3521420000009,
+        "download_speed_kbps": 3260.979022865898,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv1at/1744212/1786074106.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv1at/1744297/1786160180.ts",
         "reason": "ok"
       }
     ],
@@ -742,10 +772,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1209.1444510000144,
-        "download_speed_kbps": 3776.8683473869896,
+        "response_time_ms": 1664.5310070000007,
+        "download_speed_kbps": 3080.9538813147724,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv2at/1744212/1786074105.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv2at/1744297/1786160180.ts",
         "reason": "ok"
       }
     ],
@@ -757,10 +787,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1223.0322489999992,
-        "download_speed_kbps": 3313.5771506043343,
+        "response_time_ms": 1596.3260959999984,
+        "download_speed_kbps": 2975.280350154701,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv3at/1744212/1786074104.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv3at/1744297/1786160180.ts",
         "reason": "ok"
       }
     ],
@@ -772,10 +802,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1006.4580039999953,
-        "download_speed_kbps": 3429.073296410829,
+        "response_time_ms": 1430.5462900000023,
+        "download_speed_kbps": 2466.264592701833,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv4at/1744212/1786074104.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv4at/1744297/1786160179.ts",
         "reason": "ok"
       }
     ],
@@ -787,10 +817,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 820.503255999995,
-        "download_speed_kbps": 3532.412136620772,
+        "response_time_ms": 1109.080989000006,
+        "download_speed_kbps": 2880.956442665408,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv5at/1744212/1786074106.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv5at/1744297/1786160181.ts",
         "reason": "ok"
       }
     ],
@@ -802,10 +832,10 @@
         "url": "http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 487.55777700000635,
-        "download_speed_kbps": 6997.403702148207,
+        "response_time_ms": 518.9299670000054,
+        "download_speed_kbps": 6607.935219394682,
         "tested_url": "http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8",
-        "segment_url": "http://video10.qtv.com.cn/drm/qtv6at/1744202/1786062900.ts",
+        "segment_url": "http://video10.qtv.com.cn/drm/qtv6at/1744286/1786149105.ts",
         "reason": "ok"
       }
     ],
@@ -817,10 +847,10 @@
         "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1271.374083000012,
-        "download_speed_kbps": 2099.497121699252,
+        "response_time_ms": 898.404309,
+        "download_speed_kbps": 2086.0891717270897,
         "tested_url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
-        "segment_url": "http://stream2.jlntv.cn/sptv_sd/1786129319/1786130111514.ts?_upt=55417f421786137311",
+        "segment_url": "http://stream2.jlntv.cn/sptv_sd/1786213227/1786215538479.ts?_upt=f9ba6a6e1786222738",
         "reason": "ok"
       }
     ],
@@ -832,10 +862,10 @@
         "url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1300.6009089999964,
-        "download_speed_kbps": 6605.478571545081,
+        "response_time_ms": 995.1728829999951,
+        "download_speed_kbps": 8482.848441429614,
         "tested_url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/tracks-v1a1/mono.ts.m3u8",
-        "segment_url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/tracks-v1a1/2026/08/07/19/15/31-06000.ts",
+        "segment_url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/tracks-v1a1/2026/08/08/18/59/13-06000.ts",
         "reason": "ok"
       }
     ],
@@ -847,10 +877,10 @@
         "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 29.817488000020376,
-        "download_speed_kbps": 87419.27415767947,
+        "response_time_ms": 85.40976299999414,
+        "download_speed_kbps": 14508.589198356254,
         "tested_url": "http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8",
-        "segment_url": "http://38.64.72.148/hls/modn/list/4005/chunk02466.ts",
+        "segment_url": "http://38.64.72.148/hls/modn/list/4005/chunk016703.ts",
         "reason": "ok"
       }
     ],
@@ -862,10 +892,10 @@
         "url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 809.7764839999968,
-        "download_speed_kbps": 3138.506124645559,
+        "response_time_ms": 1092.171024999999,
+        "download_speed_kbps": 2274.8348944394556,
         "tested_url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/chunklist_b1500.m3u8",
-        "segment_url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/media_b1500_43300.ts",
+        "segment_url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/media_b1500_51842.ts",
         "reason": "ok"
       }
     ],
@@ -877,10 +907,10 @@
         "url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 752.3517300000151,
-        "download_speed_kbps": 531796.6991070621,
+        "response_time_ms": 449.5119720000105,
+        "download_speed_kbps": 32420.907977909894,
         "tested_url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist_1080.m3u8",
-        "segment_url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/20260305T135309/playlist_1080/13411/playlist_1080_00019.ts",
+        "segment_url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/20260305T135309/playlist_1080/13496/playlist_1080_00061.ts",
         "reason": "ok"
       }
     ],
@@ -892,10 +922,25 @@
         "url": "https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 20.375980000011396,
-        "download_speed_kbps": 61787.12355766804,
+        "response_time_ms": 39.26143799999693,
+        "download_speed_kbps": 33096.83715048298,
         "tested_url": "https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8",
-        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/wcetv318-529945.ts",
+        "segment_url": "https://h5cul1yar48um3t.wcetv.com/hls/wcetv318-551301.ts",
+        "reason": "ok"
+      }
+    ],
+    "XinjiangTV2": [
+      {
+        "channel_name": "Xinjiang TV 2",
+        "normalized_name": "XinjiangTV2",
+        "group_title": "其他",
+        "url": "http://110.153.180.106:55555/out_3/index.m3u8",
+        "playable": true,
+        "status": 200,
+        "response_time_ms": 620.3024789999887,
+        "download_speed_kbps": 3015.3571421615575,
+        "tested_url": "http://110.153.180.106:55555/out_3/out_3_0/prog_index.m3u8",
+        "segment_url": "http://110.153.180.106:55555/out_3/out_3_0/0_1547921.ts",
         "reason": "ok"
       }
     ],
@@ -907,10 +952,10 @@
         "url": "http://110.153.180.106:55555/out_2/index.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 562.2417369999937,
-        "download_speed_kbps": 3730.603702945447,
+        "response_time_ms": 540.5170639999994,
+        "download_speed_kbps": 3871.7459522073186,
         "tested_url": "http://110.153.180.106:55555/out_2/out_2_0/prog_index.m3u8",
-        "segment_url": "http://110.153.180.106:55555/out_2/out_2_0/0_1539460.ts",
+        "segment_url": "http://110.153.180.106:55555/out_2/out_2_0/0_1547989.ts",
         "reason": "ok"
       }
     ],
@@ -922,10 +967,10 @@
         "url": "http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1",
         "playable": true,
         "status": 200,
-        "response_time_ms": 586.6305229999966,
-        "download_speed_kbps": 3162.3757976568163,
+        "response_time_ms": 580.7099350000016,
+        "download_speed_kbps": 3586.0136093947613,
         "tested_url": "http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1",
-        "segment_url": "http://120.70.60.179:9901/tsfile/live/live_1002_1_158127.ts?key=txiptv&key2=158127",
+        "segment_url": "http://120.70.60.179:9901/tsfile/live/live_1002_1_175208.ts?key=txiptv&key2=175208",
         "reason": "ok"
       }
     ],
@@ -937,8 +982,8 @@
         "url": "https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 1427.213767000012,
-        "download_speed_kbps": 7277.7800532431,
+        "response_time_ms": 1288.4180389999926,
+        "download_speed_kbps": 6437.670062564398,
         "tested_url": "https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8",
         "segment_url": "https://ali-m-l.cztv.com/channels/lantian/channel10/1080p/0/00008ab1eaa9fc63_389124_fea50.ts",
         "reason": "ok"
@@ -952,10 +997,10 @@
         "url": "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 863.2524230000058,
-        "download_speed_kbps": 4628.9170914349515,
+        "response_time_ms": 973.2700339999951,
+        "download_speed_kbps": 4254.460599296111,
         "tested_url": "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8",
-        "segment_url": "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/media_w1177047531_8734.ts",
+        "segment_url": "https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/media_w1177047531_17276.ts",
         "reason": "ok"
       }
     ],
@@ -967,10 +1012,10 @@
         "url": "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8",
         "playable": true,
         "status": 200,
-        "response_time_ms": 949.8297120000245,
-        "download_speed_kbps": 2144.465746585059,
+        "response_time_ms": 950.3588339999993,
+        "download_speed_kbps": 2036.2232031459116,
         "tested_url": "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8",
-        "segment_url": "https://stream2.jlntv.cn/baicheng1_sd/1786128136/1786130116916.ts?_upt=6f2c64631786137316",
+        "segment_url": "https://stream2.jlntv.cn/baicheng1_sd/1786213929/1786215542161.ts?_upt=c97d423e1786222742",
         "reason": "ok"
       }
     ]
