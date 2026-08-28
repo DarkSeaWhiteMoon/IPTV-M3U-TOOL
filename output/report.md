@@ -1,231 +1,233 @@
 # IPTV 更新报告
 
-- 生成时间：2026-08-26T20:03:37.657139+00:00
+- 生成时间：2026-08-28T02:11:44.469293+00:00
 - 总共收集：350
 - 去重后：212
-- 可播放：68
-- 不可播放：144
-- 最终保留频道：67
+- 可播放：69
+- 不可播放：143
+- 最终保留频道：68
 
 ## 失败原因统计
 
-- timeout: 56
-- segment_download_failed: 33
+- timeout: 58
+- segment_download_failed: 31
 - http_403: 30
 - ClientConnectorDNSError: 11
 - http_567: 5
 - not_m3u8: 4
 - http_521: 1
-- ClientConnectorError: 1
 - http_502: 1
 - http_400: 1
 - http_401: 1
 
 ## 快慢统计
 
-- 最快源：NTDTVCanada，857313 kbps，https://live.ntdtv.com/mllive860/playlist.m3u8
-- 最慢源：DAAITV，1738 kbps，https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+- 最快源：WCETVDigitalChannel31.8，534545 kbps，https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8
+- 最慢源：GodStandsTVChinese，922 kbps，https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
 
 ## 每个频道保留的最快源
 
 ### ABNChina
-- ABNChina: 6906 kbps, 285 ms, https://mediaserver.abnvideos.com/streams/abnchina.m3u8
+- ABNChina: 5715 kbps, 242 ms, https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 
 ### AndoTV
-- AndoTV: 3623 kbps, 1032 ms, http://play.kankanlive.com/live/1711956137852982.m3u8
+- AndoTV: 3279 kbps, 1304 ms, http://play.kankanlive.com/live/1711956137852982.m3u8
 
-### AngelTVChinese
-- AngelTVChinese: 3129 kbps, 1029 ms, https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8
+### AnhuiTV
+- AnhuiTV: 2334 kbps, 650 ms, https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 
 ### BabyFirst
-- BabyFirst: 29913 kbps, 49 ms, https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+- BabyFirst: 94631 kbps, 40 ms, https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 
 ### BeautifulLifeTV
-- BeautifulLifeTV: 3257 kbps, 639 ms, https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+- BeautifulLifeTV: 3250 kbps, 568 ms, https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 
 ### BreadTV面包台
-- BreadTV面包台: 6443 kbps, 689 ms, https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+- BreadTV面包台: 6445 kbps, 597 ms, https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+
+### CCTV+1
+- CCTV+1: 7634 kbps, 820 ms, https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+
+### CCTV+2
+- CCTV+2: 4980 kbps, 539 ms, https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 
 ### CCTV1
-- CCTV1: 20239 kbps, 104 ms, http://74.91.26.218:82/live/cctv1hd.m3u8
+- CCTV1: 19763 kbps, 154 ms, http://74.91.26.218:82/live/cctv1hd.m3u8
 
 ### CCTV12
-- CCTV12: 20278 kbps, 155 ms, http://74.91.26.218:82/live/cctv12hd.m3u8
+- CCTV12: 17176 kbps, 155 ms, http://74.91.26.218:82/live/cctv12hd.m3u8
 
 ### CCTV15
-- CCTV15: 32557 kbps, 3 ms, https://xykt-fix.github.io/play/a02e/index.m3u8
+- CCTV15: 2772 kbps, 106 ms, https://xykt-fix.github.io/play/a02e/index.m3u8
 
 ### CCTV3
-- CCTV3: 19216 kbps, 205 ms, http://74.91.26.218:82/live/cctv3hd.m3u8
+- CCTV3: 19226 kbps, 205 ms, http://74.91.26.218:82/live/cctv3hd.m3u8
 
 ### CCTV4
-- CCTV4: 6198 kbps, 687 ms, https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-- CCTV4 备用1: 2709 kbps, 529 ms, https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+- CCTV4: 6658 kbps, 644 ms, https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
+- CCTV4 备用1: 2706 kbps, 423 ms, https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
-### CCTV9
-- CCTV9: 3736 kbps, 12 ms, https://xykt-fix.github.io/Y77.m3u8
+### CCTV5
+- CCTV5: 5003 kbps, 631 ms, https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
 
 ### CGNTVChinese
-- CGNTVChinese: 6285 kbps, 464 ms, https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+- CGNTVChinese: 6628 kbps, 178 ms, https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
 
 ### CGTN
-- CGTN: 8497 kbps, 428 ms, https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+- CGTN: 7892 kbps, 440 ms, https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 
 ### CGTNGlobalBiz
-- CGTNGlobalBiz: 43196 kbps, 169 ms, https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
+- CGTNGlobalBiz: 42940 kbps, 198 ms, https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 
 ### Channel8
-- Channel8: 93488 kbps, 21 ms, https://cdn.qd.je/163189/ch8
+- Channel8: 68237 kbps, 29 ms, https://cdn.qd.je/163189/ch8
 
 ### ChannelU
-- ChannelU: 25769 kbps, 222 ms, https://cdn.qd.je/163189/chu
+- ChannelU: 68449 kbps, 564 ms, https://cdn.qd.je/163189/chu
 
 ### ChifengComprehensiveNewsChanel
-- ChifengComprehensiveNewsChanel: 5305 kbps, 1002 ms, http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
+- ChifengComprehensiveNewsChanel: 5818 kbps, 1082 ms, http://play1-qk.nmtv.cn/live/1735546697341033.m3u8
 
 ### ChinaTravel
-- ChinaTravel: 41782 kbps, 207 ms, https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
+- ChinaTravel: 23055 kbps, 285 ms, https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 
 ### CreaTVCommunityChannel15
-- CreaTVCommunityChannel15: 89434 kbps, 148 ms, https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
+- CreaTVCommunityChannel15: 40874 kbps, 252 ms, https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
 
 ### DAAITV
-- DAAITV: 1738 kbps, 1481 ms, https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+- DAAITV: 20554 kbps, 958 ms, https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
 
 ### DHA
-- DHA: 5824 kbps, 807 ms, https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
+- DHA: 5318 kbps, 765 ms, https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 
 ### DiscoveringChina
-- DiscoveringChina: 21770 kbps, 166 ms, https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
+- DiscoveringChina: 25461 kbps, 210 ms, https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 
 ### GOODTVCH1綜合台
-- GOODTVCH1綜合台: 6929 kbps, 567 ms, https://live.streamingfast.net/osmflivech1.m3u8
+- GOODTVCH1綜合台: 7216 kbps, 631 ms, https://live.streamingfast.net/osmflivech1.m3u8
 
 ### GOODTVCH2真理台
-- GOODTVCH2真理台: 6912 kbps, 557 ms, https://live.streamingfast.net/osmflivech2.m3u8
+- GOODTVCH2真理台: 7859 kbps, 564 ms, https://live.streamingfast.net/osmflivech2.m3u8
 
 ### GodStandsKidsClubTVChinese
-- GodStandsKidsClubTVChinese: 3715 kbps, 666 ms, https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
+- GodStandsKidsClubTVChinese: 1049 kbps, 724 ms, https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
 
 ### GodStandsTVChinese
-- GodStandsTVChinese: 4288 kbps, 154 ms, https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
+- GodStandsTVChinese: 922 kbps, 597 ms, https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
 
 ### GuangdongSatelliteTV
-- GuangdongSatelliteTV: 444659 kbps, 53 ms, https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
+- GuangdongSatelliteTV: 446658 kbps, 83 ms, https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
 
 ### GuangdongTVAmerica
-- GuangdongTVAmerica: 383977 kbps, 89 ms, https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
+- GuangdongTVAmerica: 413177 kbps, 92 ms, https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
 
 ### GuangxiVariety&TravelChannel
-- GuangxiVariety&TravelChannel: 4581 kbps, 412 ms, http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+- GuangxiVariety&TravelChannel: 3518 kbps, 420 ms, http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 
 ### GuangzhouTV
-- GuangzhouTV: 5460 kbps, 1433 ms, https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+- GuangzhouTV: 4189 kbps, 1076 ms, https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
 
 ### HakkaTV
-- HakkaTV: 102039 kbps, 15 ms, https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
+- HakkaTV: 76583 kbps, 17 ms, https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
 
 ### HarbinComprehensiveNewsChannel
-- HarbinComprehensiveNewsChannel: 2284 kbps, 940 ms, https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
+- HarbinComprehensiveNewsChannel: 2050 kbps, 1132 ms, https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 
 ### HarbinMovieChannel
-- HarbinMovieChannel: 2927 kbps, 914 ms, https://stream.hrbtv.net/yspd/playlist.m3u8
+- HarbinMovieChannel: 2692 kbps, 946 ms, https://stream.hrbtv.net/yspd/playlist.m3u8
 
 ### HebeiTV
-- HebeiTV: 5956 kbps, 976 ms, https://event.pull.hebtv.com/live/live101.m3u8
+- HebeiTV: 6359 kbps, 1143 ms, https://event.pull.hebtv.com/live/live101.m3u8
 
 ### HomePlus
-- HomePlus: 6631 kbps, 691 ms, https://homeplushls.wns.live/hls/stream.m3u8
+- HomePlus: 6926 kbps, 465 ms, https://homeplushls.wns.live/hls/stream.m3u8
 
 ### HunanTV
-- HunanTV: 18712 kbps, 879 ms, http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+- HunanTV: 19235 kbps, 951 ms, http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 
 ### KangbaTV
-- KangbaTV: 4544 kbps, 411 ms, http://110.185.237.164:8888/hls/30/index.m3u8
+- KangbaTV: 4331 kbps, 432 ms, http://110.185.237.164:8888/hls/30/index.m3u8
 
 ### LanzhouComprehensiveNewsChannel
-- LanzhouComprehensiveNewsChannel: 4923 kbps, 3055 ms, https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
+- LanzhouComprehensiveNewsChannel: 4804 kbps, 1165 ms, https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 
 ### LanzhouCulture&TourismChannel
-- LanzhouCulture&TourismChannel: 6869 kbps, 702 ms, https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
+- LanzhouCulture&TourismChannel: 6070 kbps, 715 ms, https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 
 ### LightingLivesBlessingNationsTVChinese
-- LightingLivesBlessingNationsTVChinese: 10863 kbps, 229 ms, https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
+- LightingLivesBlessingNationsTVChinese: 12741 kbps, 131 ms, https://brightstar-chinese-pull-secure.akamaized.net/brightstarchinese/stream.m3u8
 
 ### LoveNature
-- LoveNature: 248477 kbps, 56 ms, https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
+- LoveNature: 241833 kbps, 111 ms, https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 
 ### NTDTV
-- NTDTV: 273408 kbps, 307 ms, https://ntd02.akamaized.net/HD-NY/index.m3u8
+- NTDTV: 196837 kbps, 318 ms, https://ntd02.akamaized.net/HD-NY/index.m3u8
 
 ### NTDTVAsia-Pacific
-- NTDTVAsia-Pacific: 499691 kbps, 199 ms, https://live.ntdtv.com/aplive200/playlist.m3u8
+- NTDTVAsia-Pacific: 180177 kbps, 265 ms, https://live.ntdtv.com/aplive200/playlist.m3u8
 
 ### NTDTVCanada
-- NTDTVCanada: 857313 kbps, 21 ms, https://live.ntdtv.com/mllive860/playlist.m3u8
+- NTDTVCanada: 120168 kbps, 22 ms, https://live.ntdtv.com/mllive860/playlist.m3u8
 
 ### NTDTVCanadaWest
-- NTDTVCanadaWest: 305532 kbps, 14 ms, https://live.ntdtv.com/cwlive220/playlist.m3u8
+- NTDTVCanadaWest: 43839 kbps, 11 ms, https://live.ntdtv.com/cwlive220/playlist.m3u8
 
 ### NTDTVChina
-- NTDTVChina: 174653 kbps, 27 ms, https://live.ntdtv.com/cnlive900/playlist.m3u8
+- NTDTVChina: 243404 kbps, 10 ms, https://live.ntdtv.com/cnlive900/playlist.m3u8
+
+### NTDTVWest
+- NTDTVWest: 12553 kbps, 333 ms, https://ntd02.akamaized.net/HD-LA/index.m3u8
 
 ### NeiMonggolTV
-- NeiMonggolTV: 5395 kbps, 1010 ms, http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+- NeiMonggolTV: 4747 kbps, 1351 ms, http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 
 ### NeiMonggolTV2MongolianCultureChannel
-- NeiMonggolTV2MongolianCultureChannel: 5538 kbps, 956 ms, http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
-
-### PeaceTVChinese
-- PeaceTVChinese: 4945 kbps, 1094 ms, https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
+- NeiMonggolTV2MongolianCultureChannel: 4674 kbps, 1136 ms, http://play1-qk.nmtv.cn/live/1769652109096027.m3u8
 
 ### QTV-1
-- QTV-1: 3579 kbps, 1098 ms, http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
+- QTV-1: 3356 kbps, 876 ms, http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8
 
 ### QTV-2
-- QTV-2: 4583 kbps, 826 ms, http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
+- QTV-2: 3346 kbps, 476 ms, http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 
 ### QTV-3
-- QTV-3: 3214 kbps, 656 ms, http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
+- QTV-3: 4419 kbps, 381 ms, http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8
 
 ### QTV-4
-- QTV-4: 3941 kbps, 431 ms, http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
+- QTV-4: 3628 kbps, 433 ms, http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8
 
 ### QTV-5
-- QTV-5: 6886 kbps, 444 ms, http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+- QTV-5: 6639 kbps, 364 ms, http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
 
 ### QTV-6
-- QTV-6: 6748 kbps, 257 ms, http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
+- QTV-6: 7697 kbps, 239 ms, http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8
 
 ### SipingTV
-- SipingTV: 2484 kbps, 469 ms, http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
-
-### TVBRICSChinese
-- TVBRICSChinese: 6653 kbps, 1095 ms, https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8
+- SipingTV: 3798 kbps, 546 ms, http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 
 ### TVBSAsia
-- TVBSAsia: 23164 kbps, 24 ms, http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+- TVBSAsia: 39491 kbps, 24 ms, http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
 ### TaiwanIndigenousTV
-- TaiwanIndigenousTV: 2720 kbps, 821 ms, https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+- TaiwanIndigenousTV: 2763 kbps, 1009 ms, https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 
 ### VOA美国之音
-- VOA美国之音: 7529 kbps, 645 ms, https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
+- VOA美国之音: 15688 kbps, 188 ms, https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 
 ### WCETVDigitalChannel31.8
-- WCETVDigitalChannel31.8: 439663 kbps, 5 ms, https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8
+- WCETVDigitalChannel31.8: 534545 kbps, 4 ms, https://h5cul1yar48um3t.wcetv.com/hls/wcetv318.m3u8
 
 ### XinjiangTV2
-- XinjiangTV2: 3678 kbps, 508 ms, http://110.153.180.106:55555/out_3/index.m3u8
+- XinjiangTV2: 3535 kbps, 532 ms, http://110.153.180.106:55555/out_3/index.m3u8
 
 ### XinjiangTV3
-- XinjiangTV3: 4042 kbps, 535 ms, http://110.153.180.106:55555/out_2/index.m3u8
+- XinjiangTV3: 969 kbps, 528 ms, http://110.153.180.106:55555/out_2/index.m3u8
 
 ### ZhejiangTVInternational
-- ZhejiangTVInternational: 6641 kbps, 1122 ms, https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+- ZhejiangTVInternational: 7739 kbps, 810 ms, https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 
 ### 唯心電視
-- 唯心電視: 4579 kbps, 830 ms, https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+- 唯心電視: 4688 kbps, 824 ms, https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 
 ### 白城新闻综合
-- 白城新闻综合: 2573 kbps, 1182 ms, https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
+- 白城新闻综合: 4294 kbps, 1044 ms, https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
