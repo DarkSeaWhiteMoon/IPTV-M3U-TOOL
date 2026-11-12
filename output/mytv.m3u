@@ -15,11 +15,13 @@ https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 #EXTINF:-1 tvg-id="BreadTV.cn@SD" tvg-logo="https://bread-tv.com/uploads/allimg/241202/9_1836542371.png" group-title="其他",BreadTV
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="CCTV",CCTV+2
-https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV3.cn@SD" tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="CCTV",CCTV3
-http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="CCTV",CCTV4
+#EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="CCTV",CCTV+1
+https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CCTV12.cn@SD" tvg-logo="https://i.imgur.com/3yTuiOM.png" group-title="CCTV",CCTV12
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-id="CCTV4America.cn@SD" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="CCTV",CCTV4
+https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
+#EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="CCTV",CCTV4 备用1
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV9.cn@SD" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="CCTV",CCTV9
 https://xykt-fix.github.io/Y77.m3u8
@@ -87,6 +89,8 @@ https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="其他",LoveNature 备用1
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="其他",MeiAhMovieChannel
+http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8
 #EXTINF:-1 tvg-id="NTDTV.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png" group-title="其他",NTDTV
 https://ntd02.akamaized.net/HD-NY/index.m3u8
 #EXTINF:-1 tvg-id="NTDTVAsiaPacific.us@SD" tvg-logo="https://i.imgur.com/iyFXcDy.png" group-title="其他",NTDTVAsia-Pacific
@@ -109,6 +113,8 @@ https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
 http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV5.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv5.jpg" group-title="其他",QTV-5
 http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+#EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHKTV31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="SipingTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/sptv1.jpg" group-title="其他",SipingTV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-id="TTVNews.tw@SD" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="其他",TTVNews
@@ -139,5 +145,9 @@ http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
 https://pili-live-hls-zdzz-tv.zzxwcm.cn/zdzz-tv/nqzh.m3u8
 #EXTINF:-1 tvg-id="XizangTVTibetan.cn@SD" tvg-logo="https://i.imgur.com/NtvfnVV.png" group-title="其他",XizangTVTibetan
 https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaGeneralChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/ycsxggpd.jpg" group-title="其他",YichangSanxiaGeneralChannel
+https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
+#EXTINF:-1 tvg-id="YichangSanxiaTravelLifeChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/ycsxlysh.jpg" group-title="其他",YichangSanxiaTravel&LifeChannel
+https://liveplay.ycrmt.cn/sxgd/lysh.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" tvg-logo="https://i.imgur.com/XOL1Hph.png" group-title="其他",ZhejiangInternationalChannel
 https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
