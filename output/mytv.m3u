@@ -19,10 +19,6 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus2.cn@SD" tvg-logo="https://i.imgur.com/qSg862A.png" group-title="CCTV",CCTV+2
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="CCTV",CCTV1
-http://74.91.26.218:82/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-id="CCTV12.cn@SD" tvg-logo="https://i.imgur.com/3yTuiOM.png" group-title="CCTV",CCTV12
-http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4America.cn@SD" tvg-logo="https://i.imgur.com/gBbLyqh.png" group-title="CCTV",CCTV4
 https://h5cul1yar48um3t.wcetv.com/hls/cctv4.m3u8
 #EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="CCTV",CCTV4 备用1
@@ -49,8 +45,6 @@ https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8
 http://hwapi.yntv.net/ew265l/848y54.m3u8
 #EXTINF:-1 tvg-id="DAAITV.id@SD" tvg-logo="https://i.imgur.com/YC7JCHo.png" group-title="其他",DAAITV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 tvg-id="DHA.tr@SD" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="其他",DHA
-https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
 #EXTINF:-1 tvg-id="DiscoveringChina.cn@SD" tvg-logo="https://i.imgur.com/wr2bLaA.png" group-title="其他",DiscoveringChina
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 #EXTINF:-1 tvg-id="GodStandsKidsClubTV.pk@Chinese" tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="其他",GodStandsKidsClubTVChinese
@@ -113,10 +107,12 @@ https://ntd02.akamaized.net/HD-LA/index.m3u8
 https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
 #EXTINF:-1 tvg-id="Okey.my@SD" tvg-logo="https://i.imgur.com/V2jREQ5.png" group-title="其他",Okey
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
-#EXTINF:-1 tvg-id="PeaceTVChinese.ae@SD" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg" group-title="其他",PeaceTVChinese
-https://dzkyvlfyge.erbvr.com/PeaceTvChinese/index.m3u8
+#EXTINF:-1 tvg-id="QTV2.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv2.jpg" group-title="其他",QTV-2
+http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 #EXTINF:-1 tvg-id="QTV5.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/qdtv5.jpg" group-title="其他",QTV-5
 http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8
+#EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHKTV31
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="SipingTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/sptv1.jpg" group-title="其他",SipingTV
 http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598
 #EXTINF:-1 tvg-id="TTVNews.tw@SD" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="其他",TTVNews
